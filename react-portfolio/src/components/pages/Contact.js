@@ -71,7 +71,7 @@ function Contact() {
           placeholder="message"
         />
         <button type="button" onClick={handleFormSubmit}>Submit</button>
-        </form>
+      </form>
       {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
