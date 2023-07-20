@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from '.pages/Contact';
 import Resume from './pages/Resume.js';
 
-export default function PortfolioContainer() {
+function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   // TODO: Add a comment describing the functionality of this method
@@ -31,3 +31,5 @@ export default function PortfolioContainer() {
     </div>
   );
 }
+
+export default PortfolioContainer;

@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffff;
+    margin: 0;
+
+
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: cornflowerblue;
+    min-width: 700px;
+}
+
+.header h1 {
+    color: #ffff;
+    background-color: #ca3939;
+    border-radius: 150px;
+   padding: 30px;
+   text-align: left;
+   font-size: 72px;
+   border-style: solid;   
+}
+
+
+.header img {
+    display: flex;
+    position: relative;
+    float: right;
+    border-radius: 150px;
+    margin: 15px 30px;
+    height: 120px;
+}
+
+li {
+    display: inline;
+    text-align: Center;
+    list-style-type: none;
+    
+}
+
+nav a {
+    color: #ffff;
+    font-size: 32px;
+    font-family: monospace;
+    padding: 0 15px 0 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 80px 0px 80px;
+    
+}
+
+main {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+.section {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+
+}
+
+h2 {
+    color: #ca3939;
+    text-decoration: underline;
+}
+
+.container {
+   padding: 25px 75px 25px 0;
+    font-size: 250%;
+    white-space: nowrap;
+}
+
+section p {
+    margin-top: 20px;
+    padding-left: 50px;
+    font-size: 150%;
+    border-left: solid 2.5px cornflowerblue;
+}
+
+.work-container {
+    display: flex;
+    border-right: solid 2.5px cornflowerblue;
+    padding: 25px 155px 25px 0;
+    margin-right: 50px;
+    font-size: 250%;
+    flex-wrap: wrap;
+}
+
+#second-row {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+
+.image img{
+    display: flex;
+    position: relative;
+    flex-grow: 2;
+    max-width: 100%;
+    height: auto;
+    min-width: 350px;
+}
+
+.coming-soon {
+    display: inline-block;
+}
+
+
+.text-box {
+position: relative;
+top: -41px;
+background-color:#ca3939;
+color:#ffff;
+padding: 7px 4px;
+font-family: monospace;
+border-style: none;
+font-size: 20px;
+width: 130px;
+}
+
+.contact-container {
+    padding: 25px 0px 25px 0;
+    margin-right: 42px;
+    font-size: 250%;
+    white-space: nowrap;}
+
+.section-div {
+    display: flex;
+    width: 100%;
+     border-left: solid 2.5px cornflowerblue;
+    font-size: 150%;
+    padding: 30px 100px 30px 100px;
+    color: #ca3939;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+#phone {
+    text-decoration: none;
+    width: 200px;
+}
+
+div a:link,
+div a:visited {
+    color:navy;    
+}
+
+div a strong:hover {
+    color: cornflowerblue;
+}
+
+div li {
+    display: flex;
+    justify-content: flex-end;
+   margin-right: 15%;
+}
+

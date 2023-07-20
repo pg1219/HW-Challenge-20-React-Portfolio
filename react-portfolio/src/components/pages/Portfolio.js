@@ -22,17 +22,17 @@ function Portfolio() {
         <h2>Portfolio</h2> 
         <div>
         {/* <div class="image"> */}
-        <a href="https://pg1219.github.io/HW1-code-refactor/" target="_blank"><img src="./assets/Images/horiseon.jpg" alt="Screen grab of Horiseon webpage"></a>
+        <a href="https://pg1219.github.io/HW1-code-refactor/" target="_blank"><img src="../public/assets/Images/horiseon.jpg" alt="Screen grab of Horiseon webpage"></a>
         {/* <div class="text-box">
           <h4>Challenge 1</h4> */}
         </div>
        </div>
        <div id="second-row">
        <div class="image">
-        <a href="https://pg1219.github.io/Group-6-Marvel-Ranker/" ><img src="./assets/Images/marvelMock.png" alt="Project 1 mock up"></a>
+        <a href="https://pg1219.github.io/Group-6-Marvel-Ranker/" ><img src="../public/assets/Images/marvelMock.png" alt="Project 1 mock up"></a>
        </div>
        <div class="image">
-        <a href="https://nameless-ravine-04537.herokuapp.com/" ><img src="./assets/Images/timekeeperlogo.jpg" alt="timekeeper logo"></a>
+        <a href="https://nameless-ravine-04537.herokuapp.com/" ><img src="../public/assets/Images/timekeeperlogo.jpg" alt="timekeeper logo"></a>
        </div>
       </div>
   );
